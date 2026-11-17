@@ -16,7 +16,7 @@ streamlit run app.py
 The dashboard opens with a pre-trained baseline CNN (`artifacts/baseline_model.keras`), so it loads in seconds. The
 sidebar lets you change the dataset and CNN settings and train a new model in the browser (about a minute on CPU).
 
-**Streamlit Community Cloud:** New app → this repository → branch `main` → main file `app.py` → Python 3.12 or 3.13.
+**Streamlit Community Cloud:** New app → this repository → branch `main` → main file `app.py`. Works on Python 3.12, 3.13 and 3.14 (on 3.14 the requirements install the TensorFlow 2.22 release candidate, because 2.21 has no 3.14 build).
 
 ## How the exercise is covered
 
